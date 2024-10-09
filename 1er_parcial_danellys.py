@@ -1,9 +1,4 @@
-# Número de historia clínica (un número entero).
-# • Nombre del paciente (una cadena de texto).
-# • Edad del paciente (un número entero).
-# • Diagnóstico (una cadena de texto).
-# • Cantidad de días de internación (un número entero).
-
+print("Gestión de pacientes clínica \"La Fuerza\"")
 pacientes = []
 
 # 2. Cargar pacientes:
