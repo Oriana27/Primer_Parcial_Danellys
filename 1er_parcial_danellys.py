@@ -9,6 +9,14 @@ pacientes = []
 
 
 def cargar_pacientes():
+    """
+    Esta función permite al usuario cargar información sobre varios pacientes en una lista.
+    La función solicita la cantidad de pacientes que se desean ingresar, luego pide los datos 
+    de cada paciente. Los datos de cada paciente se almacenan en una lista y luego se agregan 
+    a la lista principal de pacientes.
+
+    Parámetros: No recibe parámetros.
+    """
     cant_pacientes = (
         int(input("Ingrese cantidad de pacientes que desea cargar: ")))
     for i in range(cant_pacientes):
@@ -39,6 +47,14 @@ def cargar_pacientes():
 
 
 def mostrar_lista_pacientes(pacientes: list) -> list:
+    """
+    Muestra la lista de pacientes cargados en el sistema.
+
+    Esta función recorre la lista de pacientes y muestra los datos de cada uno. Si la lista está vacía,
+    muestra un mensaje indicando que no hay pacientes cargados.
+
+    Parámetros >> list
+    """
     print("\nMostrando lista de pacientes")
     if not pacientes:
         print("No hay pacientes cargados.")
